@@ -1,0 +1,24 @@
+pass aho.java
+port 8005
+logdir log
+chardir char
+lockdir lock
+wklogdir wklog
+dbdir db
+maildir mail
+infodir info
+keydir key
+ExpireDays 90
+rotate_interval 600000
+mail_deletetime 604800
+max_command_que_size 1500
+command_hold_time 60
+
+flush_db_interval_time 600
+
+db_host_name 127.0.0.1
+db_user_name root
+db_user_password 1234
+db_database_name xgate
+
+db_data_extra_bufsize_rate 10
